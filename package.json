@@ -1,0 +1,16 @@
+{
+  "name": "hello-express-server",
+  "version": "1.0.0",
+  "description": "A starting example of using Express to write a server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Burke, Upright Education Inc.",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

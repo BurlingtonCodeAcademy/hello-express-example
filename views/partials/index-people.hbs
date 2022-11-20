@@ -1,0 +1,11 @@
+<h2>All People:</h2>
+<ul>
+  {{#each people}}
+  <li>
+    <h3>{{this.firstName}} {{this.lastName}}</h3>
+    <p>First name: {{this.firstName}}</p>
+    <p>Last name: {{this.lastName}}</p>
+    <p>Favorite Animal{{this.favoriteAnimal}}</p>
+  </li>
+  {{/each}}
+</ul>
